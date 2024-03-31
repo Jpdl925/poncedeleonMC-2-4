@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\poncedeleonMC#2-4.props" />
+</Project>
