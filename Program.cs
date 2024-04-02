@@ -22,9 +22,9 @@ app.MapGet("/doMath", (int a = 1, int b = 2) =>
 });
 
 
-app.MapGet("/wakeUp", (string name = "Nobody", string time = "some time") =>
+app.MapGet("/wakeUp", (string name = "Nobody", string time = "some time", string amPm = "Pm") =>
 {
-    return $"Hello {name}, you woke up at {time}. Congrats!";
+    return $"Hello {name}, you woke up at {time}{amPm}. Congrats!";
 });
 
 
