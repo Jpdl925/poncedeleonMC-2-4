@@ -20,4 +20,4 @@ Endpoints:
      II. The second statement should tell me if the second number is greater than, less than, or equal to the first number.
 
 
-// Review by: 
+// Review by: Aaron Perez: 3 Endpoints have required fields for user input and output result showing in sentences. Fields are prepopulated with input value, may be better with empty fields for user.
