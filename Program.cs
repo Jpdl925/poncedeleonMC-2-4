@@ -21,6 +21,7 @@ app.MapGet("/doMath", (int a = 1, int b = 2) =>
     return $"{a} + {b} = {a+b}";
 });
 
+
 app.MapGet("/wakeUp", (string name = "Nobody", string time = "some time") =>
 {
     return $"Hello {name}, you woke up at {time}. Congrats!";
